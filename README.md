@@ -14,3 +14,15 @@
 - **Arrows:** Navigate Complex Plane
 - **Scroll:** Infinite Zoom
 - **Space:** Toggle Julia/Mandelbrot Mode
+
+- ## 🛠 Installation & Setup
+
+### Prerequisites
+This project requires a C++ compiler (GCC/Clang) and the **SDL2** development library.
+
+#### 🐧 Arch Linux
+sudo pacman -S base-devel sdl2
+
+git clone https://github.com/misa-stack/Complex.git
+cd Complex
+g++ Complex.cpp -o complex -lSDL2
